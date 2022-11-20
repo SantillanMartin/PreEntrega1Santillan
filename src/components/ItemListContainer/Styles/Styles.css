@@ -1,0 +1,7 @@
+.Itemlist--posicion{
+    display: flex;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}

@@ -4,7 +4,7 @@ import carrito from '../CartWidget/carrito.svg'
 
 const CartWidget = () => {
   return (
-    <section>
+    <section className="header__nav__contenedor--img">
       <span>3</span>
       <img src={carrito} className="header__nav__carrito--img" alt="carrito-compras" />
     </section>

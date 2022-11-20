@@ -1,0 +1,23 @@
+
+.header{
+    display: flex;
+    border: solid gray;
+    justify-content: space-around;
+}
+.header__lista{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 24rem;
+    
+    
+
+}
+
+
+nav{
+    display: flex;
+    
+}
+
