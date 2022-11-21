@@ -1,19 +1,47 @@
 
 .header{
     display: flex;
-    border: solid gray;
     justify-content: space-around;
+    gap: 30rem;
+    align-items: center;
+    background-image: linear-gradient(
+  55deg,
+  hsl(240deg 12% 91%) 0%,
+  hsl(338deg 10% 90%) 8%,
+  hsl(10deg 23% 89%) 17%,
+  hsl(17deg 36% 88%) 25%,
+  hsl(20deg 48% 88%) 34%,
+  hsl(22deg 58% 87%) 42%,
+  hsl(23deg 66% 86%) 50%,
+  hsl(24deg 74% 85%) 59%,
+  hsl(24deg 80% 84%) 67%,
+  hsl(25deg 85% 83%) 75%,
+  hsl(25deg 89% 82%) 84%,
+  hsl(26deg 93% 81%) 92%,
+  hsl(26deg 96% 80%) 100%
+);
+}
+
+.header__logo--tamaño{
+    width: 4rem;
+    height: 4rem;
 }
 .header__lista{
     
     display: flex;
     justify-content:space-between;
     align-items: center;
-    width: 24rem;
+    width: 34rem;
+    list-style: none;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-family: 'Lobster Two', cursive;
+
     
     
 
 }
+
 
 
 nav{

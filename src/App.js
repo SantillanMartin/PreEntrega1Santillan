@@ -5,7 +5,7 @@ import ItemList from './components/ItemListContainer/ItemList';
 
 
 function App() {
-  const saludo="Hola, bienvenido a SweetCake-Bakery"
+  const saludo="Hola, bienvenido a SweetCake"
   return (
     
     <div>
